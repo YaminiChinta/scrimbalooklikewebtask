@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    width: 100%;
+    height: 0%;
+    position: relative;
+
+}
+
+.icon{
+    margin-right: 7px;
+}
+.mans{
+    -webkit-transform: scaleX(-1);
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      transform: scaleX(-1);
+    
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      
+    margin-top: 5%;
+} 
+
+
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+ ul{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: large;
+}
+
+ ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+ ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ ul li button{
+    background-color: #1a73e8;
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.div1{
+    width: 15%;
+    height: 50%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.div2{
+    width: 52%;
+    height: 50%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.class1{
+    text-align: right;
+    font-size: 350%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.class2{
+    text-align: right;
+    font-size: 120%;
+    font-family: inherit;
+}
+.button1{
+    background-color: #5108c5;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top:20px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    float: right;
+
+}
+.div3{
+    float: left;
+    margin-top: 150px;
+    width: 470px;
+}
+.girl{
+    margin-left: 70px;
+}
+.man{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.vertical1 {
+    border-left: 6px solid rgb(190, 1, 1);
+    height: 50px;
+    left: 50%;
+    margin-left: -20px;
+    top: 50px;
+}
+.div4{
+    float: left;
+    margin-top: 230px;
+    width: 450px;
+    height: 20px;
+    margin-right: 50px;
+    padding-left: 50px;
+}
+.class3{
+    font-size: 100%;
+    text-align: right;
+}
+.vertical2 {
+    border-left: 6px solid rgb(201, 3, 3);
+   
+}
+.div5{
+    float: right;
+    margin-top: 230px;
+    width: 450px;
+    margin-right: 50px;
+}
+.class5{
+    font-size: 100%;
+}
+.class7{
+    margin-top: 200%;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#courses{
+    margin: auto ;
+    margin-top: 200%;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#courses .row{
+    margin: 0 3rem 0 3rem;
+    padding: 3rem;
+}
+.hgap{
+    float: center;
+    overflow: hidden;
+    height: 30px;
+    width: 10px;
+}
+.card{
+    width: 30rem;
+    font-family: 'Kumbh Sans',sabs-serif;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-radius: 0;
+}
+.card div{
+    padding: 0.75rem;
+}
+.card .profile div{
+    padding: 0;
+    margin-top: 10px;
+}
+.course1{
+    text-align: right;
+    background-color: #fff7cb;
+}
+.course1 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course2 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course3 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course4 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.profile div p{
+    margin: 0;
+    font-size: 1.2rem;
+    color: hsl(250deg 18% 19%);
+}
+.bottom{
+    background-color: #ffffff;
+}
+.cardfooter{
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: hsl(250deg 18% 19%);
+}
+.cardwraper2 .card .course2 p{
+    padding-bottom: 1rem ;
+}
+.course2{
+    text-align: right;
+    background-color: #cbd9ff;
+}
+.course3{
+    text-align: right;
+    background: #d8e3ff;
+}
+.course4{
+    text-align: right;
+    background-color: #ddefff;
+}
+.sub{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.button2{
+    align-content: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-right: 13;
+    padding-left: 13;
+    font-size: 20px;
+    font-weight: 300px;
+    padding-top: 4;
+    padding-bottom: 4;
+    margin-left: 720px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.row{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.course31{
+    text-align: right;
+    background-color: #ffd5d5;
+}
+.course32{
+    text-align: right;
+    background-color: #c2d2ff;
+}
+.course33{
+    text-align: right;
+    background: #ffc7b6;
+}
+.course34{
+    text-align: right;
+    background-color: #a5f8a9;
+}
+.course31 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course32 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course33 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.course34 p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: hsl(213deg 31% 37%);
+}
+.joinhead{
+    font-size: 150%;
+    font-weight: bolder;
+}
+.button3{
+    align-content: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-right: 25;
+    padding-left: 25;
+    font-size: 20px;
+    font-weight: 300px;
+    padding-top: 13;
+    padding-bottom:13;
+    margin-left: 680px;
+    margin-top: 10px;
+    margin-bottom: 15px;   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
